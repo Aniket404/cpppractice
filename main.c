@@ -84,7 +84,7 @@ int main() {
   printf("%s, you are %d years old\n", info.first_name, age);
 
 #else
-  #error "You must include -Dpass1 or -Dpass2"
+  //#error "You must include -Dpass1 or -Dpass2"
 #endif
 
   return 0;
